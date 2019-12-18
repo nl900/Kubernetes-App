@@ -5,7 +5,7 @@ Minikube</br>
 kubectl CLI</br>
 Helm</br>
 
-###To run
+### To run
 Download the kubernetesapp-chart directory
 cd into the directory
 
