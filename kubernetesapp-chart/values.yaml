@@ -1,0 +1,18 @@
+environment: development
+
+apphost: minikube
+
+label:
+  name: kubernetesapp
+
+container:
+  name: kubernetesapp
+  pullPolicy: IfNotPresent
+  image: nl900/kubernetesapp
+  tag: v1.0
+  port: 80
+replicas: 3
+
+service:
+  port: 8888
+  type: ClusterIP
