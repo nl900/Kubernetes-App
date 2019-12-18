@@ -1,5 +1,4 @@
-A simple ASP.NET web app outputting host environment information to the browser.
-The Helm chart deploys 3 instances of the app to a single-node Kubernetes cluster run locally on your machine.
+The Helm chart downloads the ASP.NET app from docker hub and deploys 3 instances of it to a single-node Kubernetes cluster run locally on your machine. The app shows displays the environment and host information.
 
 ### Requirements
 Minikube</br>
