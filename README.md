@@ -8,12 +8,14 @@ Helm</br>
 ### To run
 Download the kubernetesapp-chart directory</br>
 cd into the directory
+Run the command
 
 > helm install kubernetesapprelease ./kubernetesapp-chart/
 
 Check deployments on the kubernetes cluster
 > kubectl get all --selector app=kubernetesapp
 
+Map local host port to Service port
 > kubectl port-forward service/kubernetesapprelease-service 9999:8888
 
 Navigate to localhost:9999
