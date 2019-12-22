@@ -6,7 +6,7 @@ kubectl CLI</br>
 Helm</br>
 
 ### To run
-Start minikube
+Start a Kubernetes cluster
 > minikube start
 
 Download the kubernetesapp-chart directory</br>
