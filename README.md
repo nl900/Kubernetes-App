@@ -10,7 +10,7 @@ Start minikube
 > minikube start
 
 Download the kubernetesapp-chart directory</br>
-cd into the directory
+cd into the directory</br>
 Run the command
 
 > helm install kubernetesapprelease ./kubernetesapp-chart/
