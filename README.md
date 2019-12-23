@@ -23,3 +23,12 @@ Map local host port to Service port
 
 Navigate to localhost:9999
 
+When finish, clean the cluster
+>helm uninstall kubernetesapprelease
+
+Stop the Minikube virtual machine
+>minikube stop
+
+Delete Minikube VM
+>minikube delete
+
