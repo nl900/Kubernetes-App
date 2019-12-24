@@ -1,4 +1,4 @@
-Helm pulls the ASP.NET app from docker hub and deploys 3 instances of it to a single-node Kubernetes cluster run locally on your machine. The app displays the environment and host information that the app is run in.
+Helm instructs via chart to pull the ASP.NET app from docker hub and deploys 3 instances of it to a single-node Kubernetes cluster run locally on your machine. The app displays the environment and host information that the app is run in.
 
 ### Requirements
 Minikube</br>
