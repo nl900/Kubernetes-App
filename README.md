@@ -3,7 +3,7 @@ Helm instructs via chart to pull the ASP.NET app from docker hub and deploys 3 i
 ### Requirements
 Minikube</br>
 kubectl CLI</br>
-Helm</br>
+Helm 3.0.0</br>
 
 ### To run
 Start a Kubernetes cluster
