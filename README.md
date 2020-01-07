@@ -29,7 +29,7 @@ Stop the service and run
 
 > kubectl port-forward service/kubernetesapprelease-service 9999:8888
 
-Navigate to localhost:9999
+Navigate to localhost:9999 </br>
 "appEnvironment" has changed to "production"
 
 When finish, clean the cluster
