@@ -22,6 +22,15 @@ Map local host port to Service port
 > kubectl port-forward service/kubernetesapprelease-service 9999:8888
 
 Navigate to localhost:9999
+You can see "appEnvironment":"development"
+
+Stop the service and run
+> helm upgrade kubernetesapprelease ./kubernetesapp-chart --values ./kubernetesapp-chart/production-values.yaml
+
+> kubectl port-forward service/kubernetesapprelease-service 9999:8888
+
+Navigate to localhost:9999
+"appEnvironment" has changed to "production"
 
 When finish, clean the cluster
 >helm uninstall kubernetesapprelease
